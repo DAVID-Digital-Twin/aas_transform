@@ -1,0 +1,6 @@
+lxml==4.8.0
+pyecma376-2==0.2.7
+pyi40aas==0.2.2
+python-dateutil==2.8.2
+six==1.16.0
+urllib3==1.26.9

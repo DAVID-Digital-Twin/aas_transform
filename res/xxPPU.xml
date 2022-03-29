@@ -1,0 +1,2942 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>PPU</aas:idShort>
+      <aas:identification idType="IRI">www.company.com/ids/aas/8401_5131_7002_9124</aas:identification>
+      <aas:assetRef>
+        <aas:keys>
+          <aas:key type="Asset" local="true" idType="IRI">www.company.com/ids/asset/0375_3131_7002_5212</aas:key>
+        </aas:keys>
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">www.company.com/ids/sm/1215_4131_7002_4308</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">www.company.com/ids/sm/6394_4141_7002_7493</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/3253_4102_1012_1811</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/8071_8101_2102_0427</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/1011_5150_1012_2380</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/1241_5150_1012_3582</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/3191_5150_1012_6936</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/2173_2112_1012_0581</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/4442_0291_1012_0536</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/1195_4102_1012_6248</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/2433_4102_1012_9218</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/5050_5102_1012_4193</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/0072_0181_1012_2389</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/7484_1191_1012_3662</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/8134_4191_1012_5056</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/1385_9191_1012_4676</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/6300_5102_1012_7822</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/3120_5102_1012_8866</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/2144_4191_1012_2997</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/2040_5102_1012_0867</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/2573_8181_1012_2355</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/8504_8181_1012_7403</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/7344_0181_1012_9648</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/8270_5102_1012_6244</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/1210_0291_1012_0999</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/7360_5102_1012_2722</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort>PPU</aas:idShort>
+      <aas:identification idType="IRI">www.company.com/ids/asset/0375_3131_7002_5212</aas:identification>
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>Identification</aas:idShort>
+      <aas:identification idType="IRI">www.company.com/ids/sm/1215_4131_7002_4308</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ManufacturerName</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>Lehrstuhl für Automatisierung und Informationssysteme</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SerialNumber</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description />
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAM556#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+            <aas:valueId>
+              <aas:keys />
+            </aas:valueId>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ProductCountryOfOrigin</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAO841#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>DE</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>YearOfConstruction</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAP906#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>2014</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EvolutionStep</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="DE">Describes the evolution step of the xPPU (1-16 variants)</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>int</aas:valueType>
+            <aas:value>16</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Stamp1</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Takes different work pieces, stamps them depending on their type</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">www.company.com/ids/sm/6394_4141_7002_7493</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI"> 0173-1#02-BAF163#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x0y10</aas:value>
+            <aas:valueId>
+              <aas:keys />
+            </aas:valueId>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI"> 0173-1#02-BAF163#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x0y30</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Price</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">Value of the product service according to the price list</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAO739#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>integer</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinPressure</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> How strong is the contact pressure [ N/cm²]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAV623#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxPressure</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum value of the product of working pressure and pressed area of the hydraulic cylinder [in kN]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAJ549#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinHeight</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> specification of the minimum expansion of the workpiece orthogonally to its width and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH915#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxHeight</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum expansion of the workpiece orthogonally to its width and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH914#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinWidth</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> specification of the minimum expansion of the workpiece orthogonally to its gauge and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH913#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxWidth</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum expansion of the workpiece orthogonally to its gauge and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH912#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PositionAccuracy</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">Position accuracy of the workpiece in the stamp in [mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAM405#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StampingTime</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">StampingTime changes according to the workpiece type [in s]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAQ203#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>20</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>CycleTime</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> time between the incidences of a repeating event. In this specific case the cycle time of the whole stamp [in s]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAF891#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>30</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://example.com/ids/cd/8514_8101_2102_2115</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Stamp</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Stamp work pieces. Time depends on type</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="Capability" local="false" idType="IdShort">xy</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Stack</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Stores work pieces</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://example.com/ids/sm/8071_8101_2102_0427</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x0y80</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x0y70</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="en">Indicates how many work pieces can be stored</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+            <aas:valueId>
+              <aas:keys />
+            </aas:valueId>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:description>
+              <aas:langString lang="en">Number of stored WPs, changes during runtime. </aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>8</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>CycleTime</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> time between the incidences of a repeating event. In this specific case the cycle time of the whole stamp [in s]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>ProvideWP</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Capability to provide a WP by pushing it out of the bottom with a pushing cylinder</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Paint</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Paints a WP with stored paint</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://example.com/ids/sm/1011_5150_1012_2380</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x10y150</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>PaintWP</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Glue</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Glues a cap on the WP</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://example.com/ids/sm/1241_5150_1012_3582</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x120y35</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>GlueWP</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Sticker</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Adds a sticker with company name to the WP</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://example.com/ids/sm/3191_5150_1012_6936</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="en"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x120y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>AddSticker</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>LSC</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/0072_0181_1012_2389</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x20y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x20y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x170y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp3</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/7344_0181_1012_9648</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x170y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp1</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/2573_8181_1012_2355</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x75y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp2</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/8504_8181_1012_7403</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x140y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>PAC</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/7484_1191_1012_3662</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>SSC1</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/8134_4191_1012_5056</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x20y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>RC</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/2144_4191_1012_2997</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>SSC2</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/1385_9191_1012_4676</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y115</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y115</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x180y115</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp5</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/1210_0291_1012_0999</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x180y115</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Crane1</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/4442_0291_1012_0536</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x0y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>20</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>LiftTime</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>2</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SkidSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Lift</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Crane3</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/2433_4102_1012_9218</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x30y150</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>40</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>LiftTime</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>2</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SkidSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Lift</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Stamp2</aas:idShort>
+      <aas:description>
+        <aas:langString lang="en">Takes different work pieces, stamps them depending on their type</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">https://example.com/ids/sm/3253_4102_1012_1811</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI"> 0173-1#02-BAF163#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x60y150</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PickUpSpot</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> Physical venue, i.e. venue where the service is provided. Comprising address field and/or location description</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI"> 0173-1#02-BAF163#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x50y150</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Price</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">Value of the product service according to the price list</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAO739#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>integer</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinPressure</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> How strong is the contact pressure [ N/cm²]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAV623#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxPressure</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum value of the product of working pressure and pressed area of the hydraulic cylinder [in kN]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAJ549#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinHeight</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> specification of the minimum expansion of the workpiece orthogonally to its width and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH915#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxHeight</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum expansion of the workpiece orthogonally to its width and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH914#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinWidth</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> specification of the minimum expansion of the workpiece orthogonally to its gauge and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH913#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxWidth</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">specification of the maximum expansion of the workpiece orthogonally to its gauge and length [in mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAH912#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>PositionAccuracy</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">Position accuracy of the workpiece in the stamp in [mm]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAM405#004</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>REAL_MEASURE</aas:valueType>
+            <aas:value />
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StampingTime</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">StampingTime changes according to the workpiece type [in s]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAQ203#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>20</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>CycleTime</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:description>
+              <aas:langString lang="EN"> time between the incidences of a repeating event. In this specific case the cycle time of the whole stamp [in s]</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAF891#003</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>30</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRI">https://example.com/ids/cd/8514_8101_2102_2115</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Stamp</aas:idShort>
+                  <aas:description>
+                    <aas:langString lang="en">Stamp work pieces. Time depends on type</aas:langString>
+                  </aas:description>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys>
+                      <aas:key type="Capability" local="false" idType="IdShort">xy</aas:key>
+                    </aas:keys>
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Crane2</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/1195_4102_1012_6248</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x100y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>40</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>LiftTime</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>2</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SkidSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Lift</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>SSC3</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/6300_5102_1012_7822</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x80y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x80y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>SSC4</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/3120_5102_1012_8866</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x100y35</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x100y35</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x120y35</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>TwoWay</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>boolean</aas:valueType>
+            <aas:value>True</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>RC2</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/2040_5102_1012_0867</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StartPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>EndPoint</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x25y50</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ConveyorSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Transportation</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Crane4</aas:idShort>
+      <aas:identification idType="IRI">https://example.com/ids/sm/5050_5102_1012_4193</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x15y30</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>5</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>15</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>LiftTime</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>2</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SkidSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Lift</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp6</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/7360_5102_1012_2722</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x20y125</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Ramp4</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/8270_5102_1012_6244</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x55y10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoragePositions</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>3</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>StoredWPs</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>0</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Contains all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Store</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>StoredWPList</aas:idShort>
+            <aas:category>VARIABLE</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>PicAlpha</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/2173_2112_1012_0581</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>x115y85</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MinRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>20</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>MaxRange</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>20</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>LiftTime</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>2</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>SkidSpeed</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>unsignedShort</aas:valueType>
+            <aas:value>10</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>Capabilities</aas:idShort>
+            <aas:description>
+              <aas:langString lang="en">Containts all capabilities</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:value>
+              <aas:submodelElement>
+                <aas:capability>
+                  <aas:idShort>Lift</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                </aas:capability>
+              </aas:submodelElement>
+            </aas:value>
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions>
+    <aas:conceptDescription>
+      <aas:idShort>ManufacturerName</aas:idShort>
+      <aas:identification idType="IRDI">0173-1#02-AAO677#002</aas:identification>
+      <aas:embeddedDataSpecification>
+        <aas:dataSpecification>
+          <aas:keys />
+        </aas:dataSpecification>
+      </aas:embeddedDataSpecification>
+    </aas:conceptDescription>
+    <aas:conceptDescription>
+      <aas:idShort />
+      <aas:identification idType="IRI">https://example.com/ids/cd/8514_8101_2102_2115</aas:identification>
+    </aas:conceptDescription>
+  </aas:conceptDescriptions>
+</aas:aasenv>
