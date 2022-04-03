@@ -4,6 +4,7 @@ transform AAS from XML to JSON
 """
 
 import io
+import json
 import os
 
 import aas
@@ -36,10 +37,24 @@ def preprocess(in_path: str) -> None:
         filedata = file.read()
     filedata = filedata.replace('REAL_MEASURE', 'decimal')
     filedata = filedata.replace('True', 'true')
-    with open(in_path, 'w') as file:
-        file.write(filedata)
+    with open(in_path, 'w') as f:
+        f.write(filedata)
+
+
+def get_aas_ids(in_path: str, id_file: str) -> None:
+    aas_id_dict: dict = {}
+    files = [os.path.join(in_path, f) for f in os.listdir(in_path) if os.path.isfile(os.path.join(in_path, f)) and f.split('.')[-1] == "json"]
+    for f in files:
+        with open(f, "r") as af:
+            aas_content = json.load(af)
+        assert len(aas_content["assetAdministrationShells"]) == 1, f"ambiguity in {f}: file does not include exactly one AAS"
+        aas_id_dict[f] = aas_content["assetAdministrationShells"][0]["identification"]["id"]
+    with open(id_file, "w") as f:
+        json.dump(aas_id_dict, f, indent=4)
 
 
 if __name__ == "__main__":
     in_path = "../res/"
+    id_dict = "../res/_id_dict.json"
     transform_several(in_path)
+    get_aas_ids(in_path, id_dict)
