@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>Name</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI" />
+      <aas:assetRef>
+        <aas:keys>
+          <aas:key type="Asset" local="true" idType="IRI">www.company.com/ids/asset/0375_3131_7002_5212</aas:key>
+        </aas:keys>
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">www.company.com/ids/sm/1215_4131_7002_4308</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/0525_7101_1012_0214</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="IRI">https://example.com/ids/sm/0345_7101_1012_9484</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets>
+    <aas:asset>
+      <aas:idShort />
+      <aas:identification idType="IRI" />
+      <aas:administration>
+        <aas:version>1</aas:version>
+        <aas:revision>1</aas:revision>
+      </aas:administration>
+      <aas:kind>Instance</aas:kind>
+    </aas:asset>
+  </aas:assets>
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>Identification</aas:idShort>
+      <aas:category>CONSTANT</aas:category>
+      <aas:identification idType="IRI">www.company.com/ids/sm/1215_4131_7002_4308</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>ManufacturerName</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:description>
+              <aas:langString lang="EN">legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation</aas:langString>
+            </aas:description>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="ConceptDescription" local="true" idType="IRDI">0173-1#02-AAO677#002</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>Lehrstuhl für Automatisierung und Informationssysteme</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>YearOfConstruction</aas:idShort>
+            <aas:category>PARAMETER</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys>
+                <aas:key type="Property" local="false" idType="IRDI">0173-1#02-AAP906#001</aas:key>
+              </aas:keys>
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>2014</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Capabilities</aas:idShort>
+      <aas:category>PARAMETER</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/0525_7101_1012_0214</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:capability>
+            <aas:idShort />
+            <aas:category>CONSTANT</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+          </aas:capability>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Properties</aas:idShort>
+      <aas:category>VARIABLE</aas:category>
+      <aas:identification idType="IRI">https://example.com/ids/sm/0345_7101_1012_9484</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:property>
+            <aas:idShort>Location</aas:idShort>
+            <aas:category>CONSTANT</aas:category>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:valueType>string</aas:valueType>
+            <aas:value>xXyY</aas:value>
+          </aas:property>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions />
+</aas:aasenv>
