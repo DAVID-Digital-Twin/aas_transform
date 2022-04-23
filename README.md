@@ -11,3 +11,12 @@ utility functions for transforming AAS serializations
 * install dependencies: ```pip install -r requirements.txt```
 * run: ```python transform.py```
 
+## testing
+* run on example.xml
+
+properties:     line 57: ManufacturerName	with present semanticID: ConceptDescription with local IRDI (l.65)
+		l. 75:   YearOfConstruction	with present semanticID: Property with non-local IRDI (l.80)
+		l. 125:  Location 		with no semanticID
+
+after check_conceptdesc:
+
