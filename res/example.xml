@@ -4,7 +4,7 @@
     <aas:assetAdministrationShell>
       <aas:idShort>Name</aas:idShort>
       <aas:category>CONSTANT</aas:category>
-      <aas:identification idType="IRI" />
+      <aas:identification idType="IRI">example/ids/aas/8234_5131_6738_9124</aas:identification>
       <aas:assetRef>
         <aas:keys>
           <aas:key type="Asset" local="true" idType="IRI">www.company.com/ids/asset/0375_3131_7002_5212</aas:key>
@@ -32,8 +32,8 @@
   </aas:assetAdministrationShells>
   <aas:assets>
     <aas:asset>
-      <aas:idShort />
-      <aas:identification idType="IRI" />
+      <aas:idShort>example</aas:idShort>
+      <aas:identification idType="IRI">example/ids/aas/2836_4957_2816_9984</aas:identification>
       <aas:administration>
         <aas:version>1</aas:version>
         <aas:revision>1</aas:revision>
@@ -99,7 +99,7 @@
       <aas:submodelElements>
         <aas:submodelElement>
           <aas:capability>
-            <aas:idShort />
+            <aas:idShort>shortName</aas:idShort>
             <aas:category>CONSTANT</aas:category>
             <aas:kind>Instance</aas:kind>
             <aas:semanticId>
