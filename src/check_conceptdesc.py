@@ -35,8 +35,6 @@ CD_ID_DICT ={"Identification":"0173-1#01-AGZ247#010",
 "YearOfProduction"		:"0173-1#02-AAR972#002",
 "Priority"				:""}
 
-ns = {'aas': 'http://www.admin-shell.io/aas/2/0'} #namespaces dictionary
-
 def check_conceptdesc(aas_dir: str) -> None:
 	"""modifies wrong and adds missing concept descriptions to property submodels
 	Args:
