@@ -1,9 +1,7 @@
 """modifies wrong and adds missing concept descriptions to property submodels"""
 import os
-import xml.etree.ElementTree as ET
-from basyx.aas import model
-import basyx.aas.adapter.xml
-#from xml.dom import minidom	#can be used to add indentation to modified XMLs. Unused here atm
+from aas import model
+import aas.adapter.xml
 
 CD_ID_DICT ={"Identification":"0173-1#01-AGZ247#010",
 "ManufacturerName"		:"0173-1#02-AAO677#002",
@@ -50,95 +48,39 @@ def check_conceptdesc(aas_dir: str) -> None:
 	"""
 
 	files = [os.path.join(aas_dir, f) for f in os.listdir(aas_dir) if os.path.isfile(os.path.join(aas_dir, f)) and f.split('.')[-1] == "xml"]
-	ET.register_namespace('aas','http://www.admin-shell.io/aas/2/0')
-	for f in files:
-		xml_tree = ET.parse(f)
-		root = xml_tree.getroot()
-		# list of all submodels, list contains Elements
-		submodels = root.findall('./aas:submodels/aas:submodel', ns)
-		for submodel in submodels:
-			properties = submodel.findall('./aas:submodelElements/aas:submodelElement/aas:property', ns)
-			for property_sm in properties:
-				property_name = property_sm.find('aas:idShort', ns).text
-				semantic_id_sm = None
-				semantic_id_sm = property_sm.find('aas:semanticId', ns)
-				if semantic_id_sm is None:
-					semantic_id_sm =  ET.SubElement(property_sm, "aas:semanticId")
-					keys_sm = ET.SubElement(semantic_id_sm, "aas:keys")
-					key_sm = ET.SubElement(keys_sm, "aas:key", {"type":"ConceptDescription", "local":"false", "idType":"IRDI"})
-					key_sm.text = CD_ID_DICT[property_name]
-				else:
-					keys_sm = None
-					keys_sm = semantic_id_sm.find('aas:keys', ns)
-					if keys_sm is None:
-						keys_sm = ET.SubElement(semantic_id_sm, "aas:keys")
-						key_sm = ET.SubElement(keys_sm, "aas:key", {"type":"ConceptDescription", "local":"false", "idType":"IRDI"})
-						key_sm.text = CD_ID_DICT[property_name]
-					else:
-						key_sm = None
-						key_sm = keys_sm.find('aas:key', ns)
-						if key_sm is None:
-							key_sm = ET.SubElement(keys_sm, "aas:key", {"type":"ConceptDescription", "local":"false", "idType":"IRDI"})
-							key_sm.text = CD_ID_DICT[property_name]
-						else:
-							key_type = key_sm.get("type")
-							if key_type != "ConceptDescription":
-								key_sm.set("type", "ConceptDescription")
-							key_local = key_sm.get("local")
-							if key_local != "false":
-								key_sm.set("local", "false")
-							key_idtype = key_sm.get("idType")
-							if key_idtype != "IRDI":
-								key_sm.set("idType", "IRDI")
-							key_idtype_text = None
-							key_idtype_text = key_sm.text
-							if key_idtype_text is None:
-								key_sm.text = CD_ID_DICT[property_name]
-							if " " in key_idtype_text or key_idtype_text != CD_ID_DICT[property_name]:
-								key_sm.text = CD_ID_DICT[property_name]
-		new_file_name = "res_new/" + f.split("/")[-1]
-		xml_tree.write(new_file_name)
-		#xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
-		#with open(f, "w") as new_file:
-		#    new_file.write(xmlstr)
-		print(f"Successfully checked/modified/added concept descriptions for {f}")
-
-def check_conceptdesc_pyi(aas_dir: str) -> None:
-	"""modifies wrong and adds missing concept descriptions to property submodels
-	Args:
-		aas_dir (str):	The directory containing the aas files which are to be checked
-						Files need to be in XML format
-
-	Returns:
-		None
-	"""
-
-	files = [os.path.join(aas_dir, f) for f in os.listdir(aas_dir) if os.path.isfile(os.path.join(aas_dir, f)) and f.split('.')[-1] == "xml"]
 	for f in files:
 		preprocess(f)
 		with open(f, 'rb') as xml_file:
-			xml_file_data = basyx.aas.adapter.xml.read_aas_xml_file(xml_file)
-			print(xml_file_data)
-			#
-			#			if key_sm is None:
-			#				semantic_reference = model.Reference(
-			#					(model.Key(
-			#						type_=model.KeyElements.CONCEPT_DESCRIPTION,
-			#						local=False,
-			#						value=CD_ID_DICT[property_name],
-			#						id_type=model.KeyType.IRDI
-			#					),)
+			xml_file_data = aas.adapter.xml.read_aas_xml_file(xml_file)
+			data: model.AbstractObjectStore
+			data = xml_file_data
+			for obj in data:
+				if isinstance(obj, model.Submodel):
+					for element in obj.submodel_element:
+						if isinstance(element, model.Property):
+							new_semantic_id = model.Reference(
+								(model.Key(
+									type_=model.KeyElements.CONCEPT_DESCRIPTION,
+									local=False,
+									value=CD_ID_DICT[element.id_short], 
+									id_type=model.KeyType.IRDI
+								),)
+							)
+							element.semantic_id = new_semantic_id
+		new_file_name = "../res_new/" + f.split("/")[-1]
+		with open(new_file_name, 'wb') as xml_file:
+			aas.adapter.xml.write_aas_xml_file(xml_file, data)
 		print(f"Successfully checked/modified/added concept descriptions for {f}")
 
 def preprocess(in_path: str) -> None:
-    with open(in_path, 'r') as file :
-        filedata = file.read()
-    filedata = filedata.replace('REAL_MEASURE', 'decimal')
-    filedata = filedata.replace('True', 'true')
-    with open(in_path, 'w') as f:
-        f.write(filedata)
+	with open(in_path, 'r') as file :
+		filedata = file.read()
+	filedata = filedata.replace('REAL_MEASURE', 'decimal')
+	filedata = filedata.replace('True', 'true')
+	with open(in_path, 'w') as f:
+		f.write(filedata)
 
 
 if __name__ == "__main__":
 	in_path = "../res/"
-	check_conceptdesc_pyi(in_path)
+	check_conceptdesc(in_path)
