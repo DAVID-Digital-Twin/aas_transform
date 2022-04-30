@@ -58,6 +58,6 @@ if __name__ == "__main__":
     in_path = "../res/"
     in_path2 = "../res_new/"
     id_dict = "../res/_id_dict.json"
-    check_conceptdesc(in_path2)
-    transform_several(in_path)
+    check_conceptdesc(in_path)
+    transform_several(in_path2)
     get_aas_ids(in_path, id_dict)
