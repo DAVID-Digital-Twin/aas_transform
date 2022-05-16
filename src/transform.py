@@ -10,6 +10,7 @@ import os
 import aas
 from aas.adapter.xml import read_aas_xml_file
 from aas.adapter.json import write_aas_json_file
+from check_conceptdesc import check_conceptdesc
 
 
 def xml_to_json(in_path: str) -> None:
@@ -55,6 +56,8 @@ def get_aas_ids(in_path: str, id_file: str) -> None:
 
 if __name__ == "__main__":
     in_path = "../res/"
+    in_path2 = "../res_new/"
     id_dict = "../res/_id_dict.json"
-    transform_several(in_path)
+    check_conceptdesc(in_path)
+    transform_several(in_path2)
     get_aas_ids(in_path, id_dict)
