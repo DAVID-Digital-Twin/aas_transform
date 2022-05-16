@@ -10,7 +10,7 @@ import os
 import aas
 from aas.adapter.xml import read_aas_xml_file
 from aas.adapter.json import write_aas_json_file
-from check_conceptdesc import check_conceptdesc
+from check_conceptdesc import check_conceptdesc, preprocess
 
 
 def xml_to_json(in_path: str) -> None:
@@ -31,15 +31,6 @@ def transform_several(aas_dir: str) -> None:
     for f in files:
         preprocess(f)
         xml_to_json(f)
-
-
-def preprocess(in_path: str) -> None:
-    with open(in_path, 'r') as file :
-        filedata = file.read()
-    filedata = filedata.replace('REAL_MEASURE', 'decimal')
-    filedata = filedata.replace('True', 'true')
-    with open(in_path, 'w') as f:
-        f.write(filedata)
 
 
 def get_aas_ids(in_path: str, id_file: str) -> None:
