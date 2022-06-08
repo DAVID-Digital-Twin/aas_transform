@@ -24,3 +24,8 @@ properties:
 
 after check_conceptdesc:
 
+		line 55: ManufacturerName	with present semanticID: ConceptDescription with global IRDI (l.63)
+
+		l. 72:   YearOfConstruction	with present semanticID: ConceptDescription with global IRDI (l.77)
+		
+		l. 118:  Location 		with present semanticID: ConceptDescription with global IRDI (l.123)
